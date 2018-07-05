@@ -1,4 +1,6 @@
 *.idea
 *.impl
 *.iml
-target/
+target/*
+data/*
+model/*
