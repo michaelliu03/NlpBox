@@ -52,8 +52,6 @@ public class GloveDemo {
     }
 
     public static void getSimilarWords(){
-
-
         try {
             Vocabulary vocab = (Vocabulary) StoreFileObject.readObject("model/vocab.cab");
             DoubleMatrix W=(DoubleMatrix) StoreFileObject.readObject("model/matrix.model");
